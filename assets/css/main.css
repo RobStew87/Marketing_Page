@@ -1,12 +1,3 @@
-@import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
-
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -83,7 +74,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: rgb(247, 219, 144);
+		background: rgb(253, 253, 253);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2619,7 +2610,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		.button.primary {
 			background-color: #4acaa8;
-			color: #ffffff !important;
+			color: #0a0a0a !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2645,7 +2636,7 @@ input, select, textarea {
 		.button:disabled {
 			background-color: #888 !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
-			color: #fff !important;
+			color: rgb(14, 13, 13) !important;
 			cursor: default;
 			opacity: 0.25;
 		}
@@ -2700,8 +2691,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #5c9ce6;
-		color: #d2f2e9;
+		background: #2fa2cc;
+		color: #ffffff;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2720,17 +2711,15 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #5c9ce6;
+			color: #2fa2cc;
 		}
 
 		#header a {
 			color: #d2f2e9;
 		}
-
-			#header a:hover {
-				color: #ffffff !important;
-			}
-
+		#header a:hover {
+			color: #ffffff !important;
+		}
 		#header > header {
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
@@ -2751,7 +2740,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #ffffff;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2789,7 +2778,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5c9ce6;
+					border-top: solid 2px #ffffff;
 					display: block;
 					padding: 0;
 				}
@@ -2807,8 +2796,8 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #5c9ce6 !important;
+							background: #2fa2cc;
+							color: #ffffff !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3076,7 +3065,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #2fa2cc;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
